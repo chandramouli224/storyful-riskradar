@@ -360,6 +360,19 @@ The interface allows analysts to:
 - inspect evidence posts
 - provide feedback
 
+### Testing
+
+To run tests present in tests folder please run below commands
+
+```
+python -m tests.{file_name}
+python -m tests.entity_test
+python -m tests.test_evidence
+python -m tests.test_narrative_builder
+python -m tests.test_scoring
+python -m test_theme_tagging
+```
+
 ### Limitations
 
 This prototype intentionally prioritizes interpretability and clarity over complexity.
