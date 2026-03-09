@@ -287,6 +287,8 @@ The assessment instructions specified that the provided data should not be uploa
 
 Reviewers should place the provided dataset files inside the data/ directory before running the pipeline.
 
+**Note**: Reviewrs should create data/ and outputs/ folder in root before running the pipeline
+
 ### Expected directory structure:
 
 ```
